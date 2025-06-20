@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
     private Handler handler = new Handler();
     private Runnable timeRunnable, positionRunnable,weatherRunnable;
     private RelativeLayout.LayoutParams timeParams;
-    private static final String HEFENG_API_KEY = "74dc902d09c046ae9fa3eef298f2a61a"; // 替换 API Key
+    private static final String HEFENG_API_KEY = ""; // 替换 API Key
     private static final String CITY_ID = "101280601"; // 城市 ID
     private final OkHttpClient client = new OkHttpClient();
     private boolean isMovingUp = true; // 初始方向为向上
